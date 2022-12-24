@@ -1,0 +1,71 @@
+/* Reglas de estilo */
+
+
+/* Tarea para el lunes 28:
+
+Crear una regla de estilo para que el parrafo verde del header tenga un color de fondo aqua
+El color de la letra debe ser Marron
+Los bordes del parrafo deben ser redondeados en 15px y de un grosor de 2px
+
+*/
+
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(21, 108, 119);
+}
+
+nav div a {
+    border: solid 1px rgb(207, 86, 102);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(152, 206, 121);
+    border-radius: 20px;
+}
+
+header {
+    color: rgb(24, 221, 129);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    color: rgb(174, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section div {
+    margin: 30px;
+    /* Margen exterior*/
+    background-color: rgb(0, 174, 255);
+    width: 350px;
+    /* Ancho */
+    padding: 10px;
+    /* Margen interior */
+    border: 1px solid rgb(196, 5, 5);
+    /* Margen interior */
+}
+
+section div p {
+    color: black;
+}
+
+footer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    /* Propiedades de estilo*/
+    background-color: rgb(64, 255, 0);
+    border: 1px solid rgb(199, 171, 13);
+    margin: 30px;
+    padding: 10px;
+}
+
+.contenido {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 90%;
+    height: 520px;
+}
